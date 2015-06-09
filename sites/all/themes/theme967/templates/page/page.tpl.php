@@ -85,7 +85,7 @@ endif; ?>
 		<!-- Header
 		======================================================================================= -->
 		<header id="header" class="header page-header clearfix img-bg parallax-box image-parallax-box" role="banner">
-			<div class="parallax-bg" data-parallax-type="image" data-img-url="<?php echo base_path().path_to_theme(); ?>/images/bg1.jpg" data-speed="0.5" data-invert="false"></div>
+			<div class="parallax-bg" data-parallax-type="image" data-img-url="<?php echo base_path().path_to_theme(); ?>/images/bg2.jpg" data-speed="0.5" data-invert="false"></div>
 			
 			<!-- Region Header Top -->
 			<?php if ( $page['header_top'] ) : ?>
@@ -104,30 +104,6 @@ endif; ?>
                         <h1>Андрей и <br/>Катя</h1>
                         <h3>1 августа 2015</h3>
                     </div>
-
-					<?php if ( $logo || $site_name || $site_slogan ) :?>
-                        <!--
-						<div id="logo" class="logo">
-							<?php if ( $logo ) : // logo image ?>
-								<a href="<?php print $front_page; ?>" title="<?php print t( 'Home' ); ?>" rel="home" id="img-logo" class="img-logo">
-									<img src="<?php print $logo; ?>" alt="<?php print t( 'Home' ); ?>">
-								</a>
-							<?php endif;
-							if ( $site_name ) : //site name ?>
-								<h1 title="<?php print $site_name; ?>" id="site-name" class="site-name">
-									<a href="<?php print $front_page; ?>" title="<?php print $site_name; ?>"><?php print $site_name; ?></a>
-								</h1>
-							<?php endif;
-
-							if ( $site_slogan ) : // site slogan ?>
-								<div title="<?php print $site_slogan; ?>" id="slogan" class="slogan">
-									<?php print $site_slogan; ?>
-								</div>
-							<?php endif; ?>
-						</div>
-						-->
-						<!-- /#name-and-slogan -->
-					<?php endif; ?>
 
 					
 					<!-- Region Menu -->

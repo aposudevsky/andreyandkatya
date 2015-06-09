@@ -18,6 +18,8 @@ define('DRUPAL_ROOT', getcwd());
 
 require_once DRUPAL_ROOT . '/includes/bootstrap.inc';
 drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
+set_time_limit(0);
+ini_set('memory_limit', '-1');
 ini_set('display_errors', 'On');
 ini_set('error_reporting', E_ALL);
 menu_execute_active_handler();

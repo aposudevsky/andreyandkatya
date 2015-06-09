@@ -258,7 +258,7 @@ table td { padding:5px; }
 img::selection, img::-moz-selection { background:transparent; }
 .region-header-top { margin-bottom:30px; }
 #header {
-	background:url(../images/bg1.jpg) center top no-repeat;
+	background:url(../images/bg2.jpg) center top no-repeat;
 	min-height:496px;
 	position:relative;
 	width:100%;

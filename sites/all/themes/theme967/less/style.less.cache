@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:41:"sites/all/themes/theme967/less/style.less";s:8:"compiled";s:48353:"@import url(//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700);
+a:4:{s:4:"root";s:41:"sites/all/themes/theme967/less/style.less";s:8:"compiled";s:48352:"@import url(//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700);
 body {
 	background:#fff;
 	color:#777;
@@ -258,7 +258,7 @@ table td { padding:5px; }
 img::selection, img::-moz-selection { background:transparent; }
 .region-header-top { margin-bottom:30px; }
 #header {
-	background:url(../images/bg1.jpg) center top no-repeat;
+	background:url(../images/bg.jpg) center top no-repeat;
 	min-height:496px;
 	position:relative;
 	width:100%;
@@ -1735,4 +1735,4 @@ table .mini-day-on a:hover { text-decoration:underline; }
 	font-size:11px;
 }
 .switcher:hover { text-decoration:underline; }
-";s:5:"files";a:2:{s:70:"/media/sf_www/andreyandkatya/sites/all/themes/theme967/less/style.less";i:1429248892;s:71:"/media/sf_www/andreyandkatya/sites/all/themes/theme967/less/mixins.less";i:1429248892;}s:7:"updated";i:1429275530;}
+";s:5:"files";a:2:{s:80:"/home/zeuty/public_html/andreyandkatya/sites/all/themes/theme967/less/style.less";i:1433808373;s:81:"/home/zeuty/public_html/andreyandkatya/sites/all/themes/theme967/less/mixins.less";i:1429248892;}s:7:"updated";i:1433808859;}
